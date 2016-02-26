@@ -3,7 +3,7 @@ package aurora
 import (
 	"fmt"
 	"git.apache.org/thrift.git/lib/go/thrift"
-	"github.com/medallia/gru/aurora/gen/api"
+	"github.com/jc-m/gru/aurora/gen/api"
 	"os"
 	"net/url"
 	"net/http"
