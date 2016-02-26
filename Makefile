@@ -15,7 +15,7 @@ aurora: aurora/*.go
 
 aurora/gen/api/*.go: aurora/api.thrift | $(GENDIR)
 	thrift -out $(GENDIR) \
-	--gen go:package_prefix=github.com/medallia/gru/$(GENDIR)/ \
+	--gen go:package_prefix=github.com/jc-m/gru/$(GENDIR)/ \
 	aurora/api.thrift
 
 $(GENDIR):

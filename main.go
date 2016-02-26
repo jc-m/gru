@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	aurora "github.com/medallia/gru/aurora"
+	aurora "github.com/jc-m/gru/aurora"
 	"flag"
 )
 
